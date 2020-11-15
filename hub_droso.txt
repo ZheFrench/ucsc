@@ -1,0 +1,6 @@
+hub TEST_DROSO
+shortLabel TEST_DROSO_JP
+longLabel TEST_DROSO_JP_PH
+genomesFile genome_droso.txt
+email jpvillemin@gmail.com
+descriptionUrl DROSO

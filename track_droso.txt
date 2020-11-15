@@ -1,0 +1,28 @@
+track RNA_WIG_DROSO
+shortLabel RNA_WIG_DROSO
+longLabel RNA_WIG_DROSO
+container multiWig
+aggregate none
+showSubtrackColorOnUi off
+type bigWig
+maxHeightPixels 500:100:8
+autoScale on
+visibility hide
+
+track name=UNT.CYTO.pos
+shortLabel UNT.CYTO.pos
+longLabel UNT.CYTO.pos
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937266/suppl/GSM3937266_wRNAi_ED_FPKM_merge.bw
+parent RNA_WIG_DROSO
+type bigWig
+color 0,178,239
+priority 1
+
+track name=phRNAi
+shortLabel phRNAi
+longLabel phRNAi
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937270/suppl/GSM3937270_phRNAi_ED_FPKM_merge.bw
+parent RNA_WIG_DROSO
+type bigWig
+color 178,0,239
+priority 2
