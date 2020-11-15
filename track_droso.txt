@@ -9,9 +9,9 @@ maxHeightPixels 500:100:8
 autoScale on
 visibility hide
 
-track name=UNT.CYTO.pos
-shortLabel UNT.CYTO.pos
-longLabel UNT.CYTO.pos
+track name=wt
+shortLabel wt
+longLabel wt
 bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937266/suppl/GSM3937266_wRNAi_ED_FPKM_merge.bw
 parent RNA_WIG_DROSO
 type bigWig
