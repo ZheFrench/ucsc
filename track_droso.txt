@@ -18,6 +18,16 @@ type bigWig
 color 0,178,239
 priority 1
 
+track name=wt_louvier
+shortLabel wt_louvier
+longLabel wt_louvier
+bigDataUrl https://drive.google.com/file/d/1yha-anQASYhHq-CRYjaY6sGbZPM6XpKb/view?usp=sharing
+parent RNA_WIG_DROSO
+type bigWig
+color 0,178,239
+priority 2
+https://drive.google.com/file/d/1yha-anQASYhHq-CRYjaY6sGbZPM6XpKb/view?usp=sharing
+
 track name=phRNAi
 shortLabel phRNAi
 longLabel phRNAi
@@ -25,4 +35,6 @@ bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937270/suppl/
 parent RNA_WIG_DROSO
 type bigWig
 color 178,0,239
-priority 2
+priority 3
+
+
