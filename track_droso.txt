@@ -18,14 +18,6 @@ type bigWig
 color 0,178,239
 priority 1
 
-track name=wt_louvier
-shortLabel wt_louvier
-longLabel wt_louvier
-bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/W29.sorted.RPKM.bw?raw=true
-parent RNA_WIG_DROSO
-type bigWig
-color 0,178,239
-priority 2
 
 track name=phRNAi
 shortLabel phRNAi
@@ -34,6 +26,45 @@ bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937270/suppl/
 parent RNA_WIG_DROSO
 type bigWig
 color 178,0,239
+priority 2
+
+track RNA_WIG_DROSO2
+shortLabel RNA_WIG_DROSO2
+longLabel RNA_WIG_DROSO2
+container multiWig
+aggregate none
+showSubtrackColorOnUi off
+type bigWig
+maxHeightPixels 500:100:8
+autoScale on
+visibility hide
+
+
+track name=wt_louvier
+shortLabel wt_louvier
+longLabel wt_louvier
+bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/W29.sorted.RPKM.bw?raw=true
+parent RNA_WIG_DROSO2
+type bigWig
+color 0,178,239
 priority 3
 
 
+track name=ph_louvier
+shortLabel ph_louvier
+longLabel ph_louvier
+bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/PH29.sorted.RPKM.bw?raw=true
+parent RNA_WIG_DROSO2
+type bigWig
+color 178,0,239
+priority 4
+
+
+track name=ez_louvier
+shortLabel ez_louvier
+longLabel ez_louvier
+bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/Ez29.sorted.RPKM.bw?raw=true
+parent RNA_WIG_DROSO2
+type bigWig
+color 34,139,34
+priority 5
