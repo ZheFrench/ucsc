@@ -21,12 +21,11 @@ priority 1
 track name=wt_louvier
 shortLabel wt_louvier
 longLabel wt_louvier
-bigDataUrl https://drive.google.com/file/d/1yha-anQASYhHq-CRYjaY6sGbZPM6XpKb/view?usp=sharing
+bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/W29.sorted.RPKM.bw
 parent RNA_WIG_DROSO
 type bigWig
 color 0,178,239
 priority 2
-https://drive.google.com/file/d/1yha-anQASYhHq-CRYjaY6sGbZPM6XpKb/view?usp=sharing
 
 track name=phRNAi
 shortLabel phRNAi
