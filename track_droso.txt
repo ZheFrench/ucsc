@@ -21,7 +21,7 @@ priority 1
 track name=wt_louvier
 shortLabel wt_louvier
 longLabel wt_louvier
-bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/W29.sorted.RPKM.bw
+bigDataUrl https://github.com/ZheFrenchKitchen/ucsc/blob/main/W29.sorted.RPKM.bw?raw=true
 parent RNA_WIG_DROSO
 type bigWig
 color 0,178,239
