@@ -1,0 +1,6 @@
+hub TOULOUSE
+shortLabel TOULOUSE
+longLabel TOULOUSE_LUNG
+genomesFile genome_human.txt
+email jpvillemin@gmail.com
+descriptionUrl HUMAN
