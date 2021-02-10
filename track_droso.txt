@@ -230,7 +230,8 @@ type bigWig
 color 34,139,34
 priority 12
 
-
+track LOUBIERE_SECOND_BATCH_REVERSE
+shortLabel LOUBIERE_SECOND_BATCH_REVERSE
 longLabel LOUBIERE_SECOND_BATCH_REVERSE
 container multiWig
 aggregate none
