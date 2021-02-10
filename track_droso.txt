@@ -31,7 +31,7 @@ priority 2
 track name=ph_rep1
 shortLabel ph_rep1
 longLabel ph_rep1
-bigDataUrl https://storage.cloud.google.com/ph_giacomo/PH_GIACOMO.PH.rep1_Signal.Unique.unStrand.out.bw
+bigDataUrl https://storage.googleapis.com/ph_cavally/Ez29.sorted.RPKM.bw
 parent RNA_WIG_DROSO
 type bigWig
 color 0,178,239
