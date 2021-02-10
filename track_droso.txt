@@ -212,14 +212,14 @@ type bigWig
 color 34,139,34
 priority 10
 
-track name=ez_rep2_loubiere_f
-shortLabel ez_rep2_loubiere_f
-longLabel ez_rep2_loubiere_f
-bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep2_Signal.Unique.posStrand.out.bw
-parent LOUBIERE_SECOND_BATCH_FORWARD
-type bigWig
-color 34,139,34
-priority 11
+#track name=ez_rep2_loubiere_f
+#shortLabel ez_rep2_loubiere_f
+#longLabel ez_rep2_loubiere_f
+#bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep2_Signal.Unique.posStrand.out.bw
+#parent LOUBIERE_SECOND_BATCH_FORWARD
+#type bigWig
+#color 34,139,34
+#priority 11
 
 #track name=ez_rep3_loubiere_f
 #shortLabel ez_rep3_loubiere_f
