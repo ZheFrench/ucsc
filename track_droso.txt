@@ -101,14 +101,14 @@ type bigWig
 color 0,178,239
 priority 7
 
-#track name=wt_rep4_giacomo
-#shortLabel wt_rep4_giacomo
-#longLabel ph_rep4_giacomo
-#bigDataUrl https://storage.googleapis.com/wt_cavally/W_GIACOMO.W.rep4_Signal.Unique.unStrand.out.bw
-#parent GIAOCOMO_FIRST_BATCH
-#type bigWig
-#color 0,178,239
-#priority 8
+track name=wt_rep4_giacomo
+shortLabel wt_rep4_giacomo
+longLabel ph_rep4_giacomo
+bigDataUrl https://storage.googleapis.com/wt_cavally/W_GIACOMO.W.rep4_Signal.Unique.unStrand.out.bw
+parent GIAOCOMO_FIRST_BATCH
+type bigWig
+color 0,178,239
+priority 8
 
 
 track LOUBIERE_SECOND_BATCH
