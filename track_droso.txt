@@ -44,7 +44,7 @@ longLabel ph_rep1_giacomo
 bigDataUrl https://storage.googleapis.com/ph_cavally/PH_GIACOMO.PH.rep1_Signal.Unique.unStrand.out.bw
 parent GIAOCOMO_FIRST_BATCH
 type bigWig
-color 0,178,239
+color 178,0,239
 priority 1
 
 track name=ph_rep2_giacomo
@@ -53,7 +53,7 @@ longLabel ph_rep2_giacomo
 bigDataUrl https://storage.googleapis.com/ph_cavally/PH_GIACOMO.PH.rep2_Signal.Unique.unStrand.out.bw
 parent GIAOCOMO_FIRST_BATCH
 type bigWig
-color 0,178,239
+color 178,0,239
 priority 2
 
 track name=ph_rep3_giacomo
@@ -62,7 +62,7 @@ longLabel ph_rep3_giacomo
 bigDataUrl https://storage.googleapis.com/ph_cavally/PH_GIACOMO.PH.rep3_Signal.Unique.unStrand.out.bw
 parent GIAOCOMO_FIRST_BATCH
 type bigWig
-color 0,178,239
+color 178,0,239
 priority 3
 
 track name=ph_rep4_giacomo
@@ -71,7 +71,7 @@ longLabel ph_rep4_giacomo
 bigDataUrl https://storage.googleapis.com/ph_cavally/PH_GIACOMO.PH.rep4_Signal.Unique.unStrand.out.bw
 parent GIAOCOMO_FIRST_BATCH
 type bigWig
-color 0,178,239
+color 178,0,239
 priority 4
 
 track name=wt_rep1_giacomo
