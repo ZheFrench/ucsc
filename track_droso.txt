@@ -11,7 +11,7 @@ visibility hide
 
 track name=wt_geo_merge_giaocomo
 shortLabel wt_geo_merge_giaocomo
-longLabel wt
+longLabel wt_geo_merge_giaocomo
 bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937266/suppl/GSM3937266_wRNAi_ED_FPKM_merge.bw
 parent GEO_MERGE_GIAOCOMO
 type bigWig
@@ -20,7 +20,7 @@ priority 1
 
 track name=ph_geo_merge_giacomo
 shortLabel ph_geo_merge_giacomo
-longLabel ph
+longLabel ph_geo_merge_giaocomo
 bigDataUrl https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3937nnn/GSM3937270/suppl/GSM3937270_phRNAi_ED_FPKM_merge.bw
 parent GEO_MERGE_GIAOCOMO
 type bigWig
@@ -221,14 +221,14 @@ type bigWig
 color 34,139,34
 priority 11
 
-track name=ez_rep3_loubiere_f
-shortLabel ez_rep3_loubiere_f
-longLabel ez_rep3_loubiere_f
-bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep3_Signal.Unique.posStrand.out.bw
-parent LOUBIERE_SECOND_BATCH_FORWARD
-type bigWig
-color 34,139,34
-priority 12
+#track name=ez_rep3_loubiere_f
+#shortLabel ez_rep3_loubiere_f
+#longLabel ez_rep3_loubiere_f
+#bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep3_Signal.Unique.posStrand.out.bw
+#parent LOUBIERE_SECOND_BATCH_FORWARD
+#type bigWig
+#color 34,139,34
+#priority 12
 
 track LOUBIERE_SECOND_BATCH_REVERSE
 shortLabel LOUBIERE_SECOND_BATCH_REVERSE
@@ -331,20 +331,20 @@ type bigWig
 color 34,139,34
 priority 10
 
-track name=ez_rep2_loubiere_r
-shortLabel ez_rep2_loubiere_r
-longLabel ez_rep2_loubiere_r
-bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep2_Signal.Unique.negStrand.out.bw
-parent LOUBIERE_SECOND_BATCH_REVERSE
-type bigWig
-color 34,139,34
-priority 11
+#track name=ez_rep2_loubiere_r
+#shortLabel ez_rep2_loubiere_r
+#longLabel ez_rep2_loubiere_r
+#bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep2_Signal.Unique.negStrand.out.bw
+#parent LOUBIERE_SECOND_BATCH_REVERSE
+#type bigWig
+#color 34,139,34
+#priority 11
 
-track name=ez_rep3_loubiere_r
-shortLabel ez_rep3_loubiere_r
-longLabel ez_rep3_loubiere_r
-bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep3_Signal.Unique.negStrand.out.bw
-parent LOUBIERE_SECOND_BATCH_REVERSE
-type bigWig
-color 34,139,34
-priority 12
+#track name=ez_rep3_loubiere_r
+#shortLabel ez_rep3_loubiere_r
+#longLabel ez_rep3_loubiere_r
+#bigDataUrl https://storage.googleapis.com/ez_loubiere/Ez29_LOUVIERE.Ez29.rep3_Signal.Unique.negStrand.out.bw
+#parent LOUBIERE_SECOND_BATCH_REVERSE
+#type bigWig
+#color 34,139,34
+#priority 12
