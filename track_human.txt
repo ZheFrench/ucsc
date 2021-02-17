@@ -9,6 +9,118 @@ maxHeightPixels 500:100:8
 autoScale on
 visibility hide
 
+
+track name=H4006.CT_24H.rep1_f
+shortLabel H4006.CT_24H.rep1_f
+longLabel H4006.CT_24H.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.CT_24H.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 28, 149, 185
+priority 21
+
+track name=H4006.CT_24H.rep2_f
+shortLabel H4006.CT_24H.rep2_f
+longLabel H4006.CT_24H.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.CT_24H.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 28, 149, 185
+priority 22
+
+
+track name=H4006.CT_24H.rep3_f
+shortLabel H4006.CT_24H.rep3_f
+longLabel H4006.CT_24H.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.CT_24H.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 28, 149, 185
+priority 23
+
+track name=H4006.Erlo_24h.rep1_f
+shortLabel H4006.Erlo_24h.rep1_f
+longLabel H4006.Erlo_24h.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_24h.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 0, 103, 149
+priority 24
+
+track name=H4006.Erlo_24h.rep2_f
+shortLabel H4006.Erlo_24h.rep2_f
+longLabel H4006.Erlo_24h.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_24h.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 0, 103, 149
+priority 25
+
+track name=H4006.Erlo_24h.rep3_f
+shortLabel H4006.Erlo_24h.rep3_f
+longLabel H4006.Erlo_24h.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_24h.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 0, 103, 149
+priority 24
+
+track name=H4006.Erlo_DTC.rep1_f
+shortLabel H4006.Erlo_DTC.rep1_f
+longLabel H4006.Erlo_DTC.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTC.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 1, 58, 108
+priority 27
+
+
+track name=H4006.Erlo_DTC.rep2_f
+shortLabel H4006.Erlo_DTC.rep2_f
+longLabel H4006.Erlo_DTC.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTC.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 1, 58, 108
+priority 28
+
+track name=H4006.Erlo_DTC.rep3_f
+shortLabel H4006.Erlo_DTC.rep3_f
+longLabel H4006.Erlo_DTC.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTC.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 1, 58, 108
+priority 29
+
+
+track name=H4006.Erlo_DTEC.rep1_f
+shortLabel H4006.Erlo_DTEC.rep1_f
+longLabel H4006.Erlo_DTEC.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTEC.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 12, 17, 63
+priority 30
+
+track name=H4006.Erlo_DTEC.rep2_f
+shortLabel H4006.Erlo_DTEC.rep2_f
+longLabel H4006.Erlo_DTEC.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTEC.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 12, 17, 63
+priority 31
+
+track name=H4006.Erlo_DTEC.rep3_f
+shortLabel H4006.Erlo_DTEC.rep3_f
+longLabel H4006.Erlo_DTEC.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTEC.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 12, 17, 63
+priority 32
+
 track name=H3255.NT.rep1_f
 shortLabel H3255.NT.rep1_f
 longLabel H3255.NT.rep1_f
@@ -16,8 +128,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_NT.rep1_Signal.Un
 parent RNA_forward
 type bigWig
 color 32, 186, 54
-priority 31
-
+priority 33
 
 track name=H3255.NT.rep2_f
 shortLabel H3255.NT.rep2_f
@@ -26,8 +137,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_NT.rep2_Signal.Un
 parent RNA_forward
 type bigWig
 color 32, 186, 54
-priority 32
-
+priority 34
 
 track name=H3255.NT.rep3_f
 shortLabel H3255.NT.rep3_f
@@ -36,7 +146,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_NT.rep3_Signal.Un
 parent RNA_forward
 type bigWig
 color 32, 186, 54
-priority 33
+priority 35
 
 track name=H3255.Erlo_24h.rep1_f
 shortLabel H3255.Erlo_24h.rep1_f
@@ -45,7 +155,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_24h.rep1_Signal.U
 parent RNA_forward
 type bigWig
 color 28, 142, 34
-priority 34
+priority 36
 
 
 track name=H3255.Erlo_24h.rep2_f
@@ -55,7 +165,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_24h.rep2_Signal.U
 parent RNA_forward
 type bigWig
 color 28, 142, 37
-priority 35
+priority 37
 
 
 track name=H3255.Erlo_21j.rep1_f
@@ -65,8 +175,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep1_Signal.U
 parent RNA_forward
 type bigWig
 color 21, 100, 22
-priority 37
-
+priority 38
 
 track name=H3255.Erlo_21j.rep2_f
 shortLabel H3255.Erlo_21j.rep2_f
@@ -75,8 +184,7 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep2_Signal.U
 parent RNA_forward
 type bigWig
 color 21, 100, 22
-priority 38
-
+priority 39
 
 track name=H3255.Erlo_21j.rep3_f
 shortLabel H3255.Erlo_21j.rep3_f
@@ -85,8 +193,457 @@ bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep3_Signal.U
 parent RNA_forward
 type bigWig
 color 21, 100, 22
+priority 40
+
+track name=PC9.CT_24h.rep1_f
+shortLabel PC9.CT_24h.rep1_f
+longLabel PC9.CT_24h.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.CT_24h.rep1_Signal.Unique.posStrand.out.bw 
+parent RNA_forward
+type bigWig
+color 218, 34, 169
+priority 41
+
+track name=PC9.CT_24h.rep2_f
+shortLabel PC9.CT_24h.rep2_f
+longLabel PC9.CT_24h.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.CT_24h.rep2_Signal.Unique.posStrand.out.bw 
+parent RNA_forward
+type bigWig
+color 218, 34, 169
+priority 42
+
+track name=PC9.NT.rep1_f
+shortLabel PC9.NT.rep1_f
+longLabel PC9.NT.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.NT.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 218, 34, 169
+priority 43
+
+track name=PC9.NT.rep2_f
+shortLabel PC9.NT.rep2_f
+longLabel PC9.NT.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.NT.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 218, 34, 169
+priority 44
+
+track name=PC9.Erlo_24h.rep1_f
+shortLabel PC9.Erlo_24h.rep1_f
+longLabel PC9.Erlo_24h.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_24h.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 171, 2, 101
+priority 45
+
+track name=PC9.Erlo_24h.rep2_f
+shortLabel PC9.Erlo_24h.rep2_f
+longLabel PC9.Erlo_24h.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_24h.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 171, 2, 101
+priority 46
+
+track name=PC9.Erlo_24h.rep3_f
+shortLabel PC9.Erlo_24h.rep3_f
+longLabel PC9.Erlo_24h.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_24h.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 171, 2, 101
+priority 47
+
+
+track name=PC9.Erlo_DTC.rep1_f
+shortLabel PC9.Erlo_DTC.rep1_f
+longLabel PC9.Erlo_DTC.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 171, 2, 101
+priority 48
+
+track name=PC9.Erlo_DTC.rep2_f
+shortLabel PC9.Erlo_DTC.rep2_f
+longLabel PC9.Erlo_DTC.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 171, 2, 101
+priority 49
+
+track name=PC9.Erlo_DTC.rep3_f
+shortLabel PC9.Erlo_DTC.rep3_f
+longLabel PC9.Erlo_DTC.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 171, 2, 101
+priority 50
+
+track name=PC9.DTEC_75j.repA_f
+shortLabel PC9.DTEC_75j.repA_f
+longLabel PC9.DTEC_75j.repA_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repA_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 64, 6, 14
+priority 51
+
+track name=PC9.DTEC_75j.repB_f
+shortLabel PC9.DTEC_75j.repB_f
+longLabel PC9.DTEC_75j.repB_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repB_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 64, 6, 14
+priority 52
+
+track name=PC9.DTEC_75j.repD_f
+shortLabel PC9.DTEC_75j.repD_f
+longLabel PC9.DTEC_75j.repD_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repD_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 64, 6, 14
+priority 53
+
+track name=PC9.DTEC_75j.repE_f
+shortLabel PC9.DTEC_75j.repE_f
+longLabel PC9.DTEC_75j.repE_f
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repE_Signal.Unique.posStrand.out.bw
+parent RNA_forward
+type bigWig
+color 64, 6, 14
+priority 54
+
+track RNA_reverse
+shortLabel RNA_reverse
+longLabel RNA_reverse
+container multiWig
+aggregate none
+showSubtrackColorOnUi off
+type bigWig
+maxHeightPixels 500:100:8
+autoScale on
+visibility hide
+
+track name=H4006.CT_24H.rep1_r
+shortLabel H4006.CT_24H.rep1_r
+longLabel H4006.CT_24H.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.CT_24H.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 28, 149, 185
+priority 21
+
+track name=H4006.CT_24H.rep2_r
+shortLabel H4006.CT_24H.rep2_r
+longLabel H4006.CT_24H.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.CT_24H.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 28, 149, 185
+priority 22
+
+
+track name=H4006.CT_24H.rep3_r
+shortLabel H4006.CT_24H.rep3_r
+longLabel H4006.CT_24H.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.CT_24H.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 28, 149, 185
+priority 23
+
+track name=H4006.Erlo_24h.rep1_r
+shortLabel H4006.Erlo_24h.rep1_r
+longLabel H4006.Erlo_24h.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_24h.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 0, 103, 149
+priority 24
+
+track name=H4006.Erlo_24h.rep2_r
+shortLabel H4006.Erlo_24h.rep2_r
+longLabel H4006.Erlo_24h.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_24h.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 0, 103, 149
+priority 25
+
+track name=H4006.Erlo_24h.rep3_r
+shortLabel H4006.Erlo_24h.rep3_r
+longLabel H4006.Erlo_24h.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_24h.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 0, 103, 149
+priority 24
+
+track name=H4006.Erlo_DTC.rep1_r
+shortLabel H4006.Erlo_DTC.rep1_r
+longLabel H4006.Erlo_DTC.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTC.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 1, 58, 108
+priority 27
+
+
+track name=H4006.Erlo_DTC.rep2_r
+shortLabel H4006.Erlo_DTC.rep2_r
+longLabel H4006.Erlo_DTC.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTC.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 1, 58, 108
+priority 28
+
+track name=H4006.Erlo_DTC.rep3_r
+shortLabel H4006.Erlo_DTC.rep3_r
+longLabel H4006.Erlo_DTC.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTC.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 1, 58, 108
+priority 29
+
+
+track name=H4006.Erlo_DTEC.rep1_r
+shortLabel H4006.Erlo_DTEC.rep1_r
+longLabel H4006.Erlo_DTEC.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTEC.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 12, 17, 63
+priority 30
+
+track name=H4006.Erlo_DTEC.rep2_r
+shortLabel H4006.Erlo_DTEC.rep2_r
+longLabel H4006.Erlo_DTEC.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTEC.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 12, 17, 63
+priority 31
+
+track name=H4006.Erlo_DTEC.rep3_r
+shortLabel H4006.Erlo_DTEC.rep3_r
+longLabel H4006.Erlo_DTEC.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/H4006.Erlo_DTEC.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 12, 17, 63
+priority 32
+
+track name=H3255.NT.rep1_r
+shortLabel H3255.NT.rep1_r
+longLabel H3255.NT.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_NT.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 32, 186, 54
+priority 33
+
+track name=H3255.NT.rep2_r
+shortLabel H3255.NT.rep2_r
+longLabel H3255.NT.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_NT.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 32, 186, 54
+priority 34
+
+track name=H3255.NT.rep3_r
+shortLabel H3255.NT.rep3_r
+longLabel H3255.NT.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_NT.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 32, 186, 54
+priority 35
+
+track name=H3255.Erlo_24h.rep1_r
+shortLabel H3255.Erlo_24h.rep1_r
+longLabel H3255.Erlo_24h.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_24h.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 28, 142, 34
+priority 36
+
+
+track name=H3255.Erlo_24h.rep2_r
+shortLabel H3255.Erlo_24h.rep2_r
+longLabel H3255.Erlo_24h.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_24h.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 28, 142, 37
+priority 37
+
+
+track name=H3255.Erlo_21j.rep1_r
+shortLabel H3255.Erlo_21j.rep1_r
+longLabel H3255.Erlo_21j.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 21, 100, 22
+priority 38
+
+track name=H3255.Erlo_21j.rep2_r
+shortLabel H3255.Erlo_21j.rep2_r
+longLabel H3255.Erlo_21j.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 21, 100, 22
 priority 39
 
+track name=H3255.Erlo_21j.rep3_r
+shortLabel H3255.Erlo_21j.rep3_r
+longLabel H3255.Erlo_21j.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 21, 100, 22
+priority 40
+
+track name=PC9.CT_24h.rep1_r
+shortLabel PC9.CT_24h.rep1_r
+longLabel PC9.CT_24h.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.CT_24h.rep1_Signal.Unique.negStrand.out.bw 
+parent RNA_reverse
+type bigWig
+color 218, 34, 169
+priority 41
+
+track name=PC9.CT_24h.rep2_r
+shortLabel PC9.CT_24h.rep2_r
+longLabel PC9.CT_24h.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.CT_24h.rep2_Signal.Unique.negStrand.out.bw 
+parent RNA_reverse
+type bigWig
+color 218, 34, 169
+priority 42
+
+track name=PC9.NT.rep1_r
+shortLabel PC9.NT.rep1_r
+longLabel PC9.NT.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.NT.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 218, 34, 169
+priority 43
+
+track name=PC9.NT.rep2_r
+shortLabel PC9.NT.rep2_r
+longLabel PC9.NT.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.NT.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 218, 34, 169
+priority 44
+
+track name=PC9.Erlo_24h.rep1_r
+shortLabel PC9.Erlo_24h.rep1_r
+longLabel PC9.Erlo_24h.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_24h.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 171, 2, 101
+priority 45
+
+track name=PC9.Erlo_24h.rep2_r
+shortLabel PC9.Erlo_24h.rep2_r
+longLabel PC9.Erlo_24h.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_24h.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 171, 2, 101
+priority 46
+
+track name=PC9.Erlo_24h.rep3_r
+shortLabel PC9.Erlo_24h.rep3_r
+longLabel PC9.Erlo_24h.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_24h.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 171, 2, 101
+priority 47
+
+
+track name=PC9.Erlo_DTC.rep1_r
+shortLabel PC9.Erlo_DTC.rep1_r
+longLabel PC9.Erlo_DTC.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 171, 2, 101
+priority 48
+
+track name=PC9.Erlo_DTC.rep2_r
+shortLabel PC9.Erlo_DTC.rep2_r
+longLabel PC9.Erlo_DTC.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 171, 2, 101
+priority 49
+
+track name=PC9.Erlo_DTC.rep3_r
+shortLabel PC9.Erlo_DTC.rep3_r
+longLabel PC9.Erlo_DTC.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 171, 2, 101
+priority 50
+
+track name=PC9.DTEC_75j.repA_r
+shortLabel PC9.DTEC_75j.repA_r
+longLabel PC9.DTEC_75j.repA_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repA_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 64, 6, 14
+priority 51
+
+track name=PC9.DTEC_75j.repB_r
+shortLabel PC9.DTEC_75j.repB_r
+longLabel PC9.DTEC_75j.repB_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repB_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 64, 6, 14
+priority 52
+
+track name=PC9.DTEC_75j.repD_r
+shortLabel PC9.DTEC_75j.repD_r
+longLabel PC9.DTEC_75j.repD_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repD_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 64, 6, 14
+priority 53
+
+track name=PC9.DTEC_75j.repE_r
+shortLabel PC9.DTEC_75j.repE_r
+longLabel PC9.DTEC_75j.repE_r
+bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repE_Signal.Unique.negStrand.out.bw
+parent RNA_reverse
+type bigWig
+color 64, 6, 14
+priority 54
 
 track RNA_reverse
 shortLabel RNA_reverse
@@ -107,3 +664,4 @@ parent RNA_reverse
 type bigWig
 color 178,0,239
 priority 1
+
