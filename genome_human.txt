@@ -1,2 +1,2 @@
 genome hg38
-trackDb track_toulouse.txt
+trackDb track_human.txt
