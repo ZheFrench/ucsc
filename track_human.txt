@@ -645,23 +645,3 @@ type bigWig
 color 64, 6, 14
 priority 54
 
-track RNA_reverse
-shortLabel RNA_reverse
-longLabel RNA_reverse
-container multiWig
-aggregate none
-showSubtrackColorOnUi off
-type bigWig
-maxHeightPixels 500:100:8
-autoScale on
-visibility hide
-
-track name=H3255.Erlo_21j.rep1_r
-shortLabel H3255.Erlo_21j.rep1_r
-longLabel H3255.Erlo_21j.rep1_r
-bigDataUrl  https://storage.googleapis.com/celllines/H3255.Erlo_21j.rep1_Signal.Unique.negStrand.out.bw
-parent RNA_reverse
-type bigWig
-color 178,0,239
-priority 1
-
