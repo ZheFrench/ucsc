@@ -5,7 +5,7 @@ container multiWig
 aggregate none
 showSubtrackColorOnUi off
 type bigWig
-maxHeightPixels 500:100:8
+maxHeightPixels 500:50:8
 autoScale on
 visibility hide
 
