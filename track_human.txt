@@ -589,7 +589,7 @@ longLabel PC9.Erlo_DTC.rep1_r
 bigDataUrl https://storage.googleapis.com/celllines/PC9.Erlo_DTC.rep1_Signal.Unique.negStrand.out.bw
 parent RNA_reverse_bis
 type bigWig
-color 171, 2, 101
+color 119, 25, 70
 priority 48
 
 track name=PC9.Erlo_DTC.rep2_r
@@ -616,7 +616,7 @@ longLabel PC9.DTEC_75j.repA_r
 bigDataUrl https://storage.googleapis.com/celllines/PC9.DTEC_75j.repA_Signal.Unique.negStrand.out.bw
 parent RNA_reverse_bis
 type bigWig
-color 119, 25, 70
+color 64, 6, 14
 priority 51
 
 track name=PC9.DTEC_75j.repB_r
