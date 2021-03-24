@@ -15,7 +15,8 @@ longLabel SUDHL1.DMSO.rep2_f
 bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/SUDHL1.DMSO.rep2_Signal.Unique.posStrand.out.bw
 parent RNA_forward_PRJNA603759_leukemia_tipifartinib
 type bigWig
-color 28, 149, 185
+color 76,76,76
+
 
 track name=SUDHL1.DMSO.rep3_f
 shortLabel SUDHL1.DMSO.rep3_f
@@ -23,7 +24,7 @@ longLabel SUDHL1.DMSO.rep3_f
 bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/SUDHL1.DMSO.rep3_Signal.Unique.posStrand.out.bw
 parent RNA_forward_PRJNA603759_leukemia_tipifartinib
 type bigWig
-color 28, 149, 185
+color 76,76,76
 
 track name=SUDHL1.TIPI.rep2_f
 shortLabel SUDHL1.TIPI.rep2_f
