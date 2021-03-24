@@ -41,6 +41,47 @@ parent RNA_forward_PRJNA603759_leukemia_tipifartinib
 type bigWig
 color 220,20,60
 
+
+track name=JURKAT.DMSO.rep1_f
+shortLabel JURKAT.DMSO.rep1_f
+longLabel JURKAT.DMSO.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.DMSO.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 0, 0, 0
+
+track name=JURKAT.DMSO.rep2_f
+shortLabel JURKAT.DMSO.rep2_f
+longLabel JURKAT.DMSO.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.DMSO.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 0, 0, 0
+
+track name=JURKAT.TIPI.rep1_f
+shortLabel JURKAT.TIPI.rep1_f
+longLabel JURKAT.TIPI.rep1_f
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.TIPI.rep1_Signal.Unique.posStrand.out.bw
+parent RNA_forward_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 20,	220,	180
+
+track name=JURKAT.TIPI.rep2_f
+shortLabel JURKAT.TIPI.rep2_f
+longLabel JURKAT.TIPI.rep2_f
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.TIPI.rep2_Signal.Unique.posStrand.out.bw
+parent RNA_forward_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 20,	220,	180
+
+track name=JURKAT.TIPI.rep3_f
+shortLabel JURKAT.TIPI.rep3_f
+longLabel JURKAT.TIPI.rep3_f
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.TIPI.rep3_Signal.Unique.posStrand.out.bw
+parent RNA_forward_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 20,	220,	180
+
 track RNA_reverse_PRJNA603759_leukemia_tipifartinib
 shortLabel RNA_reverse_PRJNA603759_leukemia_tipifartinib
 longLabel RNA_reverse_PRJNA603759_leukemia_tipifartinib
@@ -68,7 +109,6 @@ parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
 type bigWig
 color 28, 149, 185
 
-
 track name=SUDHL1.TIPI.rep2_r
 shortLabel SUDHL1.TIPI.rep2_r
 longLabel SUDHL1.TIPI.rep2_r
@@ -84,6 +124,48 @@ bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifar
 parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
 type bigWig
 color 220,20,60
+
+track name=JURKAT.DMSO.rep1_r
+shortLabel JURKAT.DMSO.rep1_r
+longLabel JURKAT.DMSO.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.DMSO.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 0, 0, 0
+
+track name=JURKAT.DMSO.rep2_r
+shortLabel JURKAT.DMSO.rep2_r
+longLabel JURKAT.DMSO.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.DMSO.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 0, 0, 0
+
+
+track name=JURKAT.TIPI.rep1_r
+shortLabel JURKAT.TIPI.rep1_r
+longLabel JURKAT.TIPI.rep1_r
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.TIPI.rep1_Signal.Unique.negStrand.out.bw
+parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 20,	220,	180
+
+track name=JURKAT.TIPI.rep2_r
+shortLabel JURKAT.TIPI.rep2_r
+longLabel JURKAT.TIPI.rep2_r
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.TIPI.rep2_Signal.Unique.negStrand.out.bw
+parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 20,	220,	180
+
+track name=JURKAT.TIPI.rep3_r
+shortLabel JURKAT.TIPI.rep3_r
+longLabel JURKAT.TIPI.rep3_r
+bigDataUrl https://storage.googleapis.com/celllines/PRJNA603759_leukemia_tipifartinib/JURKAT.TIPI.rep3_Signal.Unique.negStrand.out.bw
+parent RNA_reverse_PRJNA603759_leukemia_tipifartinib
+type bigWig
+color 20,	220,	180
+
 
 
 track RNA_forward
