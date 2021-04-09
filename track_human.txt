@@ -1,3 +1,24 @@
+
+track single_cell
+shortLabel single_cell
+longLabel single_cell
+container multiWig
+aggregate none
+showSubtrackColorOnUi off
+type bigWig
+maxHeightPixels 100:32:8
+autoScale on
+visibility hide
+
+track name=ERLO_4006_verte
+shortLabel ERLO_4006_verte
+longLabel ERLO_4006_verte
+bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_verte.bw
+parent single_cell
+type bigWig
+color 28, 149, 185
+
+
 track RNA_forward_PRJNA603759_leukemia_tipifartinib
 shortLabel RNA_forward_PRJNA603759_leukemia_tipifartinib
 longLabel RNA_forward_PRJNA603759_leukemia_tipifartinib
