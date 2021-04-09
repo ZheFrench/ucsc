@@ -17,6 +17,25 @@ bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_verte.bw
 parent single_cell
 type bigWig
 color 52, 201, 36
+priority 1
+
+track name=CTL_Vertes
+shortLabel CTL_Vertes
+longLabel CTL_Vertes
+bigDataUrl https://storage.googleapis.com/celllines/CTL_Vertes.bw
+parent single_cell
+type bigWig
+color 52, 201, 36
+priority 2
+
+track name=OSI_TIPI_Vertes
+shortLabel OSI_TIPI_Vertes
+longLabel OSI_TIPI_Vertes
+bigDataUrl https://storage.googleapis.com/celllines/OSI_TIPI_Vertes.bw
+parent single_cell
+type bigWig
+color 52, 201, 36
+priority 3
 
 track name=ERLO_4006_rouge
 shortLabel ERLO_4006_rouge
@@ -25,6 +44,61 @@ bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_rouge.bw
 parent single_cell
 type bigWig
 color 255, 0, 0
+priority 4
+
+track name=CTL_Rouges
+shortLabel CTL_Rouges
+longLabel CTL_Rouges
+bigDataUrl https://storage.googleapis.com/celllines/CTL_Rouges.bw
+parent single_cell
+type bigWig
+color 255, 0, 0
+priority 5
+
+track name=OSI_TIPI_Rouges
+shortLabel OSI_TIPI_Rouges
+longLabel OSI_TIPI_Rouges
+bigDataUrl https://storage.googleapis.com/celllines/OSI_TIPI_Rouges.bw
+parent single_cell
+type bigWig
+color 255, 0, 0
+priority 6
+
+track name=Human_CTL_GRCh38
+shortLabel Human_CTL_GRCh38
+longLabel Human_CTL_GRCh38
+bigDataUrl https://storage.googleapis.com/celllines/Human_CTL_GRCh38.bw
+parent single_cell
+type bigWig
+color 238, 130,238
+priority 7
+
+track name=Human_OSI
+shortLabel Human_OSI
+longLabel Human_OSI
+bigDataUrl https://storage.googleapis.com/celllines/Human_OSI.bw
+parent single_cell
+type bigWig
+color 238, 130,238
+priority 8
+
+track name=Human_TIPI
+shortLabel Human_TIPI
+longLabel Human_TIPI
+bigDataUrl https://storage.googleapis.com/celllines/Human_TIPI.bw
+parent single_cell
+type bigWig
+color 238, 130,238
+priority 9
+
+track name=Human_OSI_TIPI
+shortLabel Human_OSI_TIPI
+longLabel Human_OSI_TIPI
+bigDataUrl https://storage.googleapis.com/celllines/Human_OSI_TIPI.bw
+parent single_cell
+type bigWig
+color 238, 130,238
+priority 10
 
 
 track RNA_forward_PRJNA603759_leukemia_tipifartinib
