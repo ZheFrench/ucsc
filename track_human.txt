@@ -16,7 +16,15 @@ longLabel ERLO_4006_verte
 bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_verte.bw
 parent single_cell
 type bigWig
-color 28, 149, 185
+color 52, 201, 36
+
+track name=ERLO_4006_rouge
+shortLabel ERLO_4006_rouge
+longLabel ERLO_4006_rouge
+bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_rouge.bw
+parent single_cell
+type bigWig
+color 255, 0, 0
 
 
 track RNA_forward_PRJNA603759_leukemia_tipifartinib
