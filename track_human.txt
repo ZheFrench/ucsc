@@ -10,19 +10,20 @@ maxHeightPixels 100:32:8
 autoScale on
 visibility hide
 
-track name=ERLO_4006_verte
-shortLabel ERLO_4006_verte
-longLabel ERLO_4006_verte
-bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_verte.bw
-parent single_cell
-type bigWig
-color 52, 201, 36
-priority 1
 
 track name=CTL_Vertes
 shortLabel CTL_Vertes
 longLabel CTL_Vertes
 bigDataUrl https://storage.googleapis.com/celllines/CTL_Vertes.bw
+parent single_cell
+type bigWig
+color 52, 201, 36
+priority 1
+
+track name=ERLO_4006_verte
+shortLabel ERLO_4006_verte
+longLabel ERLO_4006_verte
+bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_verte.bw
 parent single_cell
 type bigWig
 color 52, 201, 36
@@ -37,19 +38,19 @@ type bigWig
 color 52, 201, 36
 priority 3
 
-track name=ERLO_4006_rouge
-shortLabel ERLO_4006_rouge
-longLabel ERLO_4006_rouge
-bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_rouge.bw
+track name=CTL_Rouges
+shortLabel CTL_Rouges
+longLabel CTL_Rouges
+bigDataUrl https://storage.googleapis.com/celllines/CTL_Rouges.bw
 parent single_cell
 type bigWig
 color 255, 0, 0
 priority 4
 
-track name=CTL_Rouges
-shortLabel CTL_Rouges
-longLabel CTL_Rouges
-bigDataUrl https://storage.googleapis.com/celllines/CTL_Rouges.bw
+track name=ERLO_4006_rouge
+shortLabel ERLO_4006_rouge
+longLabel ERLO_4006_rouge
+bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_rouge.bw
 parent single_cell
 type bigWig
 color 255, 0, 0
