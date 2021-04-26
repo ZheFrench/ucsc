@@ -2,6 +2,7 @@ track loubiere
 shortLabel loubiere
 longLabel loubiere
 bigDataUrl https://storage.googleapis.com/ph_loubiere/loub.bb
+type bigBed
 
 track GEO_MERGE_GIAOCOMO
 shortLabel GEO_MERGE_GIAOCOMO
