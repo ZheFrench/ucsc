@@ -1,3 +1,21 @@
+track BED
+shortLabel BED
+longLabel BED
+container multiBed
+aggregate none
+showSubtrackColorOnUi off
+type bigBed
+maxHeightPixels 500:100:8
+autoScale on
+visibility hide
+
+track name=bed
+shortLabel bed
+longLabel bed
+bigDataUrl https://storage.googleapis.com/ph_loubiere/loub.bb
+parent BED
+type bigBed
+
 track GEO_MERGE_GIAOCOMO
 shortLabel GEO_MERGE_GIAOCOMO
 longLabel GEO_MERGE_GIAOCOMO
