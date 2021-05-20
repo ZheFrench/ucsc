@@ -20,9 +20,9 @@ type bigWig
 color 52, 201, 36
 priority 1
 
-track name=ERLO_4006_verte
-shortLabel ERLO_4006_verte
-longLabel ERLO_4006_verte
+track name=OSI_verte
+shortLabel OSI_verte
+longLabel OSI_verte
 bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_verte.bw
 parent single_cell
 type bigWig
@@ -47,9 +47,9 @@ type bigWig
 color 255, 0, 0
 priority 4
 
-track name=ERLO_4006_rouge
-shortLabel ERLO_4006_rouge
-longLabel ERLO_4006_rouge
+track name=OSI_rouge
+shortLabel OSI_rouge
+longLabel OSI_rouge
 bigDataUrl https://storage.googleapis.com/celllines/ERLO_4006_rouge.bw
 parent single_cell
 type bigWig
